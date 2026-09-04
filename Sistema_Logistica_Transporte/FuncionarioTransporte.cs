@@ -14,5 +14,16 @@
             get { return RegistroColaborador; }
             set { registrocolaborador = value; }
         }
+        public FuncionarioTransporte(string funcionario, string registrocolaborador)
+
+        {
+            Funcionario = funcionario;
+            RegistroColaborador = registrocolaborador;
+        }
+        public virtual void MostrarDetalhes()
+        {
+            Console.WriteLine("Funcionario: " + Funcionario);
+            Console.WriteLine("Registro do Colaborador: " + RegistroColaborador);
+        }
     }
 }
