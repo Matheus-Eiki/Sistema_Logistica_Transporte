@@ -3,14 +3,14 @@
 namespace Sistema_Logistica_Transporte
 {
 
-    public class MotoristaCarreta : FuncionarioTransporte
+    class MotoristaCarreta : FuncionarioTransporte
     {
         public string CategoriaCNH { get; set; }
         public string PlacaVeiculo { get; set; }
         public double CapacidadeCargaTon { get; set; }
 
-        public MotoristaCarreta(string nome, string registro, string categoriaCNH, string placaVeiculo, double capacidadeCargaTon)
-            : base(nome, registro)
+        public MotoristaCarreta(string Funcionario, string RegistroColaborador, string categoriaCNH, string placaVeiculo, double capacidadeCargaTon)
+            : base(Funcionario, RegistroColaborador)
         {
             CategoriaCNH = categoriaCNH;
             PlacaVeiculo = placaVeiculo;

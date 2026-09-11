@@ -11,7 +11,7 @@
         }
         public string RegistroColaborador
         {
-            get { return RegistroColaborador; }
+            get { return registrocolaborador; }
             set { registrocolaborador = value; }
         }
         public FuncionarioTransporte(string funcionario, string registrocolaborador)

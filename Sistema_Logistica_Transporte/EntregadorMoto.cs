@@ -17,8 +17,8 @@ namespace Sistema_Logistica_Transporte
             set { categoriaCnh = value; }
         }
 
-        public EntregadorMoto(string funcionario, string registrocolaborador, string placa, string categoriaCnh)
-            : base(funcionario, registrocolaborador)
+        public EntregadorMoto(string Funcionario, string RegistroColaborador, string placa, string categoriaCnh)
+            : base(Funcionario, RegistroColaborador)
         {
             Placa = placa;
             CategoriaCnh = categoriaCnh;
